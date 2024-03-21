@@ -100,7 +100,7 @@ main {
 .btn-login {
   width: 100%;
   height: 68px;
-  background: red;
+  background: rgb(199, 21, 21);
   font-size: 18px;
   line-height: 2px;
   display: flex;
@@ -111,6 +111,8 @@ main {
   align-items: center;
   justify-content: center;
   transition: 0.3s ease;
+  border:none;
+
 }
 .btn-login:hover {
   cursor: pointer;
@@ -126,6 +128,7 @@ i {
 }
 .btn-google {
   border: none;
+  font-style: normal;
   font-size: 18px;
   color: #ffffff;
   width: 100%;
@@ -135,12 +138,13 @@ i {
   align-items: center;
   justify-content: center;
   transition: 0.3s ease;
+  letter-spacing: 2px;
 
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(129, 51, 51, 0.603);
   font-weight: 900;
   line-height: 2px;
   gap: 12px;
-
+  
 }
 
 .btn-google:hover {
@@ -159,15 +163,16 @@ a {
   font-weight: 900;
   font-size: 14px;
   line-height: 16px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.486);
   text-decoration: none;
+  letter-spacing: 2px;
 }
 a::after {
   content: "";
   width: 0;
   height: 2px;
   position: absolute;
-  background: #d93856;
+  background: #f80b37;
   bottom: -3px;
   left: 0;
   transition: 0.3s ease;
@@ -178,10 +183,13 @@ a:hover::after {
   width: 100%;
   height: 2px;
   position: absolute;
-  background: #d93856;
+  background: #f10530;
   bottom: -3px;
   left: 0;
 }
 span {
   color: #ffffff;
 }
+
+
+
